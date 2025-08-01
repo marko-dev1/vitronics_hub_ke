@@ -676,6 +676,11 @@ nav a:hover {
         
         /* Responsive */
         @media (max-width: 768px) {
+            .hero {
+                height: 40vh;
+                 min-height: 250px;
+            }
+            
             .hero h1 {
                 font-size: 1.8rem;
             }
@@ -726,7 +731,7 @@ nav a:hover {
         
         @media (max-width: 480px) {
             .hero {
-                height: 60vh;
+                height: 40vh;
             }
             
             .hero h1 {
