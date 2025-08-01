@@ -37,7 +37,7 @@
       <a href="register.html" id="registerLink">Register</a>
       <a href="login.html" id="loginLink">Login</a>
       <span class="user-greeting" id="greeting" style="cursor: pointer;" title="Click to logout">
-        <i class="fas fa-user" id="userIcon"></i>
+        <i class="fas fa-user" id="userIcon" ></i>
         <span id="username-text">Guest</span>
       </span>
       <a href="#" class="cart-icon" id="cartIcon">
@@ -290,6 +290,13 @@
     })
     .catch(() => alert('Logout failed'));
   });
+
+
+  document.getElementById('hamburger').addEventListener('click', () => {
+    document.getElementById('navLinks').classList.toggle('show');
+  });
+</script>
+
 </script>
 
 <script src="/script.js"></script>
