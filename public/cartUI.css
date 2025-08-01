@@ -1,0 +1,32 @@
+/* Cart syncing indicators */
+.cart-syncing {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #3498db;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 4px;
+    display: none;
+    z-index: 1000;
+}
+
+.cart-syncing.active {
+    display: block;
+}
+
+.cart-error {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #e74c3c;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 4px;
+    display: none;
+    z-index: 1000;
+}
+
+.cart-error.active {
+    display: block;
+}

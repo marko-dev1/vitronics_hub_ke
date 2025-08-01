@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Register</title>
+  <link rel="stylesheet" href="./auth0.css" />
+  <!-- <link rel="stylesheet" href="./auth0.css" /> -->
+  
+</head>
+<body>
+  <h1>REGISTER</h1>
+
+  <form id="registerForm">
+    <label>Full Name
+      <input type="text" name="name" placeholder="Enter your Full Name" required />
+    </label>
+
+    <label>Email
+      <input type="email" name="email" placeholder="Enter your Email" required />
+    </label>
+
+    <label>Phone
+      <input type="text" name="phone" placeholder="Enter your Phone Number" required />
+    </label>
+
+    <label>Password
+      <input type="password" name="password" placeholder="Enter your password" required />
+    </label>
+
+    <label>Address
+      <input type="text" name="address" placeholder="Enter your Address" required />
+    </label>
+
+    <button type="submit">Register</button>
+    <button id="cancel"><a href="index.html">Close</a></button>
+    <p>Already have an account? <a href="login.html">Signin</a></p>
+    <!-- <div id="message"></div> -->
+    <div class="toast" id="toast"></div>
+  </form>
+  <script src="/auth0.js"></script>
+</body>
+</html>
